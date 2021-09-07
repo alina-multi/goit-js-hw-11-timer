@@ -194,7 +194,7 @@ var CountdownTimer = /*#__PURE__*/function () {
 
 ;
 var timer1 = new CountdownTimer({
-  targetDate: new Date("09 20, 2021")
+  targetDate: new Date("August 18, 2022 00:00:00")
 });
 timer1.start();
 console.log(timer1);
@@ -226,7 +226,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "59719" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "59834" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};

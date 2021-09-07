@@ -51,7 +51,7 @@ class CountdownTimer {
 };
 
 const timer1 = new CountdownTimer({
-    targetDate: new Date("09 20, 2021"),
+    targetDate: new Date("August 18, 2022 00:00:00"),
 
 });
 
